@@ -41,7 +41,7 @@ Many of you might run across some errors. I'll write about handling some common 
 `avrdude.exe: error: could not find USB device "USBasp" with vid=0x16c0 pid=0x5dc` - This might be a common error many of you might be facing. The reason this error occurs is because you don't have the proper driver to interact with the USBasp. One way of fixing this is to install a software called Zadig from [here](http://zadig.akeo.ie/) and run it. 
 You'll see a screen similar to this:
 
-![alt tag](https://github.com/nivedk/advitiy-docs/blob/master/images/zadig.PNG)
+![alt tag](https://github.com/nivedk/advitiy-docs/blob/master/images/zadig-1.PNG)
 
 Except there'll be none written in the circled box.
 Click install driver to install the **`libusbK`** driver.
